@@ -50,7 +50,7 @@
 	    		   + '.jbar-cta{display:block;max-width:1280px;margin:0 auto;padding:14px;}'
 	    		   + '.jribbon{padding:5px 2px 0;z-index:999999;top:0;right:4%;display:none;width:38px;text-align:center;background:' + backgroundColor + ';border:3px solid #FFF;'
 	    		   + 'border-top:none;box-shadow:0 2px 5px #333;color:#FFF;cursor:pointer;border-radius:0 0 3px 3px;}' 
-	    		   + '.downarrow{top:11px;right:4%;width:50px;text-align:center;position:absolute;margin:0;padding:0;}' + '.jribbon:hover{cursor:pointer;}' 
+	    		   + '.downarrow{top:13px;right:4%;width:50px;text-align:center;position:absolute;margin:0;padding:0;}' + '.jribbon:hover{cursor:pointer;}' 
 	    		   + '.text{display:block;padding:0;margin:0;font-weight:900;text-align:center;}' + '.text a{font-weight:500;text-decoration:none;color:' 
 	    		   + buttonTextColor + ';margin:0 10px;padding:5px 10px;background:' + buttonColor + ';border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;}' 
 	    		   + '.text a:hover{background:' + buttonColorHover + ';}.arrow{cursor:pointer;}.fixed{position:fixed;}.static{position:absolute;}</style>';
