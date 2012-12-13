@@ -1,5 +1,5 @@
 /*
-	jBar v1.0.0
+	jBar v1.0.1
 	by Todd Motto: http://www.toddmotto.com
 	Latest version: https://github.com/toddmotto/jBar
 
@@ -12,16 +12,16 @@
 	
 		// jBar Defaults
 		var defaults = {
-			type             : 'fixed', // Fixed/Static
-			delay            : '1000', // In milliseconds
-            backgroundColor  : '#DB5903', // Background Color
-            borderColor      : '#FFF', // Background Color
-            buttonTextColor  : '#FFF', // Button Text
-            buttonColor      : '#333', // Button Color
-            buttonColorHover : '#222', // Button Color Hover
-            calltoAction     : 'jBar Plugin! A simple and lightweight notification banner.', // Call to action text
-            buttonText       : 'Download it!', // Button Text
-            buttonLink       : 'http://www.toddmotto.com' // Hyperlink from button
+	    		type             : 'fixed', // Fixed/Static
+	    		delay            : '1000', // In milliseconds
+           		backgroundColor  : '#DB5903', // Background Color
+            		borderColor      : '#FFF', // Background Color
+            		buttonTextColor  : '#FFF', // Button Text
+            		buttonColor      : '#333', // Button Color
+            		buttonColorHover : '#222', // Button Color Hover
+            		calltoAction     : 'jBar Plugin! A simple and lightweight notification banner.', // Call to action text
+            		buttonText       : 'Download it!', // Button Text
+            		buttonLink       : 'http://www.toddmotto.com' // Hyperlink from button
 		};
 		
 		// jBar Options
