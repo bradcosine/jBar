@@ -17,6 +17,7 @@
 		// jBar Defaults
 		var defaults = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 	    		type             : 'fixed', // Fixed/Static
@@ -31,6 +32,8 @@
             		buttonLink       : 'http://www.toddmotto.com' // Hyperlink from button
 =======
 >>>>>>> Indentation cleanup
+=======
+>>>>>>> Indentations
 			type: 'fixed', // Fixed/Static
 			delay: '1000', // In milliseconds
 			backgroundColor: '#DB5903', // Background Color
@@ -42,9 +45,12 @@
 			buttonText: 'Download it!', // Button Text
 			buttonLink: 'http://www.toddmotto.com' // Hyperlink from button
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Indentation cleanup
 >>>>>>> Indentation cleanup
+=======
+>>>>>>> Indentations
 		};
 		
 		// jBar Options
@@ -83,6 +89,7 @@
 					 + ';}.arrow{cursor:pointer;}.fixed{position:fixed;}.static{position:absolute;}</style>';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		// Append Styles to <head>
 =======
 <<<<<<< HEAD
@@ -101,6 +108,9 @@
 		// Append Styles to <head>
 >>>>>>> Indentation cleanup
 >>>>>>> Indentation cleanup
+=======
+		// Append Styles to <head>
+>>>>>>> Indentations
 		$('head').append(styles);
 
 		// Prepend jBar to <body>
@@ -111,6 +121,7 @@
 			// Add class 'position-top-fixed'
 			$('#jbar').addClass('position-top fixed');
 			$('.jribbon').addClass('fixed');
+<<<<<<< HEAD
 <<<<<<< HEAD
 			// Initial Animation
 =======
@@ -128,6 +139,8 @@
 	        });
 	        
 =======
+=======
+>>>>>>> Indentations
 			// Initial Animation
 >>>>>>> Indentation cleanup
 			$('body').prepend('<div id="jbar-push" style="height:46px;display:none;" />');
@@ -139,9 +152,12 @@
 				$('.jribbon').slideToggle(200);
 			});
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Indentation cleanup
 >>>>>>> Indentation cleanup
+=======
+>>>>>>> Indentations
 		}
 		
 		// Options 'Top' and 'Static' are selected
@@ -150,12 +166,15 @@
 			$('#jbar').addClass('position-top');
 			$('.jribbon').addClass('static');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 			
 =======
 >>>>>>> Indentation cleanup
 >>>>>>> Indentation cleanup
+=======
+>>>>>>> Indentations
 			// Initial Animation
 			$('#jbar').delay(delay).slideDown(300);
 			// User Animation
@@ -164,6 +183,7 @@
 				$('.jribbon').slideToggle(200);
 			});
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 		
 	};
@@ -176,8 +196,9 @@
 >>>>>>> Indentation cleanup
 })(jQuery);
 =======
+=======
+>>>>>>> Indentations
 		
 	};
 	
 })(jQuery);
->>>>>>> Indentation cleanup
