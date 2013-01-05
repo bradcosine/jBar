@@ -44,7 +44,7 @@
 			buttonLink = options.buttonLink;
 			
 		// jBar Markup
-		var jbar_html = '<div id="jbar" class="jbar">' + '<span class="jbar-cta">' + '<p class="text">' + calltoAction + '<a href="' + buttonLink + '">' 
+		var jbar_html = '<div id="jbar" class="jbar" style="display:none;">' + '<span class="jbar-cta">' + '<p class="text">' + calltoAction + '<a href="' + buttonLink + '">' 
 						+ buttonText + '</a></p>' + '<p class="downarrow"><img src="img/arrow-up.png" class="jtrigger arrow" alt="Arrow Up"></p>' 
 						+ '</span></div>' + '<span class="jribbon"><img src="img/arrow-down.png" class="arrow jtrigger" alt="Arrow Down"></span>';
 						
