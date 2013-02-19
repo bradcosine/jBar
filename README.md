@@ -19,6 +19,7 @@ Options to choose from to quickly configure the jBar with your colours, call to 
     <script>
     $(function () {
       $.jBar({
+      		startClosed: false, // show only the trigger tag to start with
             type: 'fixed', // fixed/static
             delay: '1000', // Entrance delay (milliseconds)
             backgroundColor: '#DB5903', // Background Color
