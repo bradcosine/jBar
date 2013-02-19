@@ -16,6 +16,7 @@
 
 		// jBar Defaults
 		var defaults = {
+			startClosed: false,
 			type: 'fixed', // Fixed/Static
 			delay: '1000', // In milliseconds
 			backgroundColor: '#DB5903', // Background Color
@@ -70,9 +71,16 @@
 			// Add class 'position-top-fixed'
 			$('#jbar').addClass('position-top fixed');
 			$('.jribbon').addClass('fixed');
+			
 			// Initial Animation
 			$('body').prepend('<div id="jbar-push" style="height:46px;display:none;" />');
-			$('#jbar, #jbar-push').delay(delay).slideDown(300);
+			
+			if (options.startClosed) {
+				$('.jribbon').delay(delay).slideToggle(200);
+			} else {
+				$('#jbar, #jbar-push').delay(delay).slideDown(300);
+			}
+			
 			// User Animation
 			$('.jtrigger').click(function () {
 				$('#jbar-push').slideToggle();
@@ -86,8 +94,14 @@
 			// Add class 'position-top-fixed'
 			$('#jbar').addClass('position-top');
 			$('.jribbon').addClass('static');
+			
 			// Initial Animation
-			$('#jbar').delay(delay).slideDown(300);
+			if (options.startClosed) {
+				$('.jribbon').slideToggle(200);
+			} else {
+				$('#jbar').delay(delay).slideDown(300);
+			}
+			
 			// User Animation
 			$('.jtrigger').click(function () {
 				$('#jbar').slideToggle();
